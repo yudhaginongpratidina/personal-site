@@ -17,3 +17,6 @@
 - [Tailwind Guide](./wiki/tailwind/README.md)
 
 ## CHEAT SHEET
+
+- [HTTP Response Status Codes](./cheat-sheet/http-response-status-codes.md)
+- [HTTP Request Methods](./cheat-sheet/http-request-methods.md)
