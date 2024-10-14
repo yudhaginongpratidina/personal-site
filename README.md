@@ -13,4 +13,4 @@
 ## WIKI
 
 - [Vite Guide](./wiki/vite/README.md)
-- [Tailwin Guide](./wiki/tailwind/README.md)
+- [Tailwind Guide](./wiki/tailwind/README.md)
