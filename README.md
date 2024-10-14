@@ -8,6 +8,9 @@
 
 - [Backend Documentation](./docs/backend/README.md)
 - [Frontend Documentation](./docs/frontend/README.md)
+- [Dashboard Documentation](./docs/dashboard/README.md)
 
 ## WIKI
 
+- [Vite Guide](./wiki/vite/README.md)
+- [Tailwin Guide](./wiki/tailwind/README.md)
