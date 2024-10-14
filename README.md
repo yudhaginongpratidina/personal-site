@@ -12,5 +12,8 @@
 
 ## WIKI
 
+- [Git Configuration](./wiki/git/README.md)
 - [Vite Guide](./wiki/vite/README.md)
 - [Tailwind Guide](./wiki/tailwind/README.md)
+
+## CHEAT SHEET
