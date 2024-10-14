@@ -7,6 +7,10 @@ import './styles/index.css'
 // PAGES
 import Wellcome from './domain/Wellcome'
 
+// AUTH PAGE
+import Register from './domain/auth/Register'
+import Login from './domain/auth/Login'
+
 
 // ROOT
 createRoot(document.getElementById('root')!).render(
@@ -14,6 +18,8 @@ createRoot(document.getElementById('root')!).render(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Wellcome />} />
+                <Route path='/register' element={<Register />} />
+                <Route path='/login' element={<Login />} />
             </Routes>
         </BrowserRouter>
     </StrictMode>,
