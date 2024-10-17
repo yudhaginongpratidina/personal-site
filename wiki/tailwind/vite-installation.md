@@ -1,30 +1,36 @@
-# VITE INSTALLATION
+# TAILWIND INSTALLATION - VITE
 
-Install Tailwind CSS
+## CREATE YOUR PROJECT
+
+```bash
+npm create vite@latest my-project -- --template react
+cd my-project
+```
+
+## INSTALL TAILWIND CSS
 
 ```bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-Configure your template paths `tailwind.config.js`
+## CONFIG YOUR TEMPLATE PATHS
 
 ```js
 /** @type {import('tailwindcss').Config} */
-/** @type {import('tailwindcss').Config} */
 export default {
-    content: [
-        "./index.html",
-        "./src/**/*.{js,ts,jsx,tsx}",
-    ],
-    theme: {
-        extend: {},
-    },
-    plugins: [],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }
 ```
 
-Add the Tailwind directives to your CSS `./src/index.css`
+## ADD TAILWIND DIRECTIVE
 
 ```css
 @tailwind base;
@@ -32,7 +38,7 @@ Add the Tailwind directives to your CSS `./src/index.css`
 @tailwind utilities;
 ```
 
-Start your build process
+## START YOUR BUILD PROCESS
 
 ```bash
 npm run dev

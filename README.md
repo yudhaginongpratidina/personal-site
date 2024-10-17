@@ -4,23 +4,13 @@
 
 - [GitHub Repository](https://github.com/yudhaginongpratidina/personal-site.git)
 
-## DOCUMENTATION
+## PERSONAL WIKI
 
-- [Backend Documentation](./docs/backend/README.md)
-- [Frontend Documentation](./docs/frontend/README.md)
-- [Dashboard Documentation](./docs/dashboard/README.md)
+### GIT DOCS
 
-## WIKI
+- [Git Installation](./wiki/git/git-installation.md)
+- [Git Config](./wiki/git/git-config.md)
 
-- [Git Configuration](./wiki/git/README.md)
-- [Vite Guide](./wiki/vite/README.md)
-- [Tailwind Guide](./wiki/tailwind/README.md)
+### TAILWIND DOCS
 
-## CEH (CERTIFIED ETHICAL HACKER)
-
--
-
-## CHEAT SHEET
-
-- [HTTP Response Status Codes](./cheat-sheet/http-response-status-codes.md)
-- [HTTP Request Methods](./cheat-sheet/http-request-methods.md)
+- [Tailwind Installation - Vite](./wiki/tailwind/vite-installation.md)
