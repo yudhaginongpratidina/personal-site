@@ -16,6 +16,10 @@
 - [Vite Guide](./wiki/vite/README.md)
 - [Tailwind Guide](./wiki/tailwind/README.md)
 
+## CEH (CERTIFIED ETHICAL HACKER)
+
+-
+
 ## CHEAT SHEET
 
 - [HTTP Response Status Codes](./cheat-sheet/http-response-status-codes.md)
