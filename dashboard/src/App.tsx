@@ -5,11 +5,10 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
 // PAGES
-import Login from './pages/Auth/Login'
-import Register from './pages/Auth/Register'
-import Profile from './pages/Account/Profile'
-import UpdatePassword from './pages/Account/UpdatePassword'
+import Login from './pages/Login/Index'
+import Register from './pages/Register/Index'
 
+import Dashboard from './pages/Dashboard/Index'
 
 // GLOBAL STYLE WITH TAILWIND CSS
 import './styles/index.css'
@@ -22,13 +21,11 @@ createRoot(document.getElementById('root')!).render(
             <Routes>
 
                 {/* AUTH */}
-                <Route path="/" element={<Login />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
 
-                {/* ACCOUNT */}
-                <Route path="/profile" element={<Profile />} />
-                <Route path="/update-password" element={<UpdatePassword />} />
+                {/* ADMIN */}
+                <Route path="/" element={<Dashboard />} />
 
             </Routes>
         </BrowserRouter>
