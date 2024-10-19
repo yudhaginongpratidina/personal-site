@@ -14,3 +14,7 @@
 ### TAILWIND DOCS
 
 - [Tailwind Installation - Vite](./wiki/tailwind/vite-installation.md)
+
+### CEH V12
+
+- [CEH V12 - MODULE 01 - ETHICAL HACKING AND COUNTERMEASURES](./wiki/ceh/ceh-v12-module-01.md)
