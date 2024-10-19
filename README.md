@@ -6,6 +6,14 @@
 
 ## PERSONAL WIKI
 
+### REACT DOCS
+
+- [React component - Label](./wiki/react/react-component-label.md)
+- [React component - Input](./wiki/react/react-component-input.md)
+- [React component - Select](./wiki/react/react-component-select.md)
+- [React component - Checkbox](./wiki/react/react-component-checkbox.md)
+- [React component - Button](./wiki/react/react-component-button.md)
+
 ### GIT DOCS
 
 - [Git Installation](./wiki/git/git-installation.md)
