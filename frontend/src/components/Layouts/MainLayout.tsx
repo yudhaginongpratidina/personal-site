@@ -26,7 +26,7 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
     // RENDER
     return (
         <>
-            <Navbar fixed={true} container={true} className="bg-white dark:bg-black" >
+            <Navbar fixed={true} container={true} className="bg-white" >
                 <Logo icon={<FaReact size={30} className="animate-spin duration-1000" />} name="YUDHA DEV" to={"/"}/>
                 <div className="flex items-center gap-2.5">
                     <DarkModeButton />
