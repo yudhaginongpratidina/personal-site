@@ -13,6 +13,7 @@
 - [React component - Select](./wiki/react/react-component-select.md)
 - [React component - Checkbox](./wiki/react/react-component-checkbox.md)
 - [React component - Button](./wiki/react/react-component-button.md)
+- [React component - DarkModeButton](./wiki/react/react-component-dark-mode-button.md)
 
 ### GIT DOCS
 
