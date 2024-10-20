@@ -14,6 +14,12 @@
 - [React component - Checkbox](./wiki/react/react-component-checkbox.md)
 - [React component - Button](./wiki/react/react-component-button.md)
 
+- [React component - Navbar](./wiki/react/react-component-navbar.md)
+- [React component - Footer](./wiki/react/react-component-footer.md)
+- [React component - Logo](./wiki/react/react-component-logo.md)
+- [React component - HamburgerButton](./wiki/react/react-component-hamburger-button.md)
+- [React component - DarkModeButton](./wiki/react/react-component-dark-mode-button.md)
+
 ### GIT DOCS
 
 - [Git Installation](./wiki/git/git-installation.md)

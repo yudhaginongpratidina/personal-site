@@ -6,6 +6,7 @@ import Navbar from "../Partials/Navbar"
 import Footer from "../Partials/Footer"
 import Logo from "../Partials/Logo"
 import HamburgerButton from "../Partials/HamburgerButton";
+import DarkModeButton from "../Partials/DarkModeButton";
 
 // ICONS
 import { FaReact } from "react-icons/fa";
@@ -27,7 +28,10 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
         <>
             <Navbar fixed={true} container={true} className="bg-white" >
                 <Logo icon={<FaReact size={30} className="animate-spin duration-1000" />} name="YUDHA DEV" to={"/"}/>
-                <HamburgerButton isActive={isHamburgerButtonActive} onClick={toggleHamburgerButton} />
+                <div className="flex items-center gap-2.5">
+                    <DarkModeButton />
+                    <HamburgerButton isActive={isHamburgerButtonActive} onClick={toggleHamburgerButton} className="border border-gray-500 p-1" />
+                </div>
             </Navbar>
             <main className="w-full min-h-screen py-14">
                 {children}
