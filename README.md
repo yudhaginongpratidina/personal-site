@@ -19,9 +19,15 @@
 - [Git Installation](./wiki/git/git-installation.md)
 - [Git Config](./wiki/git/git-config.md)
 
-## CSS DOCS
+### CSS DOCS
 
 - [CSS - Change style scrollbar](./wiki/css/css-change-style-scrollbar.md)
+
+### GOLANG DOCS
+
+- [Golang - Introduction](./wiki/golang/golang-introduction.md)
+- [Golang - Installation](./wiki/golang/golang-installation.md)
+- [Golang - DataType](./wiki/golang/golang-data-type.md)
 
 ### TAILWIND DOCS
 
