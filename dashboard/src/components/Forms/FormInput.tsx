@@ -27,7 +27,7 @@ export default function FormInput(props : FormInputProps) {
             value={value}
             onChange={onChange}
             autoComplete={autoComplete}
-            className={`w-full p-3 outline-none ${className}`}
+            className={`w-full p-2 rounded-md outline-none border bg-transparent bg-gray-50 focus:border-blue-500 ring-0 ${className}`}
         />
     )
 }

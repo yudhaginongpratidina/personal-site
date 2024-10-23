@@ -22,7 +22,7 @@ export default function FormCheckbox(props : FormCheckboxProps) {
             checked={checked}
             onChange={onChange}
             required={required}
-            className={`${className}`}
+            className={`w-4 h-4 ${className}`}
         />
     )
 }

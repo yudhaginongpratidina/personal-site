@@ -1,45 +1,41 @@
-// LIB
-import { Link } from "react-router-dom";
+import NavbarContainer from "../Partials/NavbarContainer";
+import BrandContainer from "../Partials/BrandContainer";
+import BrandLogo from "../Partials/BrandLogo";
+import BrandName from "../Partials/BrandName";
+import DarkModeButton from "../Partials/DarkModeButton";
+import FooterContainer from "../Partials/FooterContainer";
+import FooterVersion from "../Partials/FooterVersion";
 
-// PARTIALS
-import Navbar from "../Partials/Navbar"
-import Logo from "../Partials/Logo"
-
-// ICON
 import { RxDashboard } from "react-icons/rx";
 
-// COMPONENT FORM
-import FormHeading from "../Forms/FormHeading";
-import FormFooter from "../Forms/FormFooter";
-
-// TYPE
-type AuthLayoutProps = {
-    children: React.ReactNode
-    title: string
-    description: string
-    footerLink: string
-    footerLinkText: string
-}
-
-// AUTH LAYOUT
-export default function AuthLayout(props: AuthLayoutProps) {
-
-    // PROPS
-    const { children, title, description, footerLink, footerLinkText } = props
-
-    // RENDER
+export default function AuthLayout({children} : {children: React.ReactNode}) {
     return (
         <>
-            <Navbar fixed={true} container={true}>
-                <Logo icon={<RxDashboard size={24} />} name="DASHBOARD" to="/login" />
-            </Navbar>
-            <main className="w-full px-4 h-screen flex flex-col items-center justify-center bg-gray-100">
-                <FormHeading title={title} titleColor="text-gray-900" description={description} descriptionColor="text-gray-500" className="p-4 border-b"/>
+            <NavbarContainer fixed={true}>
+                <div className="w-full container h-14 flex items-center justify-between">
+                    <BrandContainer>
+                        <BrandLogo>
+                            <RxDashboard className="w-6 h-6" />
+                        </BrandLogo>
+                        <BrandName> DASHBOARD </BrandName>
+                    </BrandContainer>
+                    <DarkModeButton/>
+                </div>
+            </NavbarContainer>
+            <MainContent >
                 {children}
-                <FormFooter className="border-t p-4">
-                    <Link to={footerLink} className="text-blue-500 hover:underline hover:underline-offset-8">{footerLinkText}</Link>
-                </FormFooter>
-            </main>
+            </MainContent>
+            <FooterContainer fixed={true}>
+                <FooterVersion/>
+            </FooterContainer>
         </>
+    )
+}
+
+const MainContent = ({children} : {children: React.ReactNode}) => {
+    return (
+        <main className="w-full px-4 h-screen flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-800 duration-200">
+            {children}
+        </main>
     )
 }

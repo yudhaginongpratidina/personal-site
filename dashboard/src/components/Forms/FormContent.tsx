@@ -1,19 +1,6 @@
-// TYPE
-type FormContentProps = {
-    children: React.ReactNode
-    gap: string
-    className?: string
-}
-
-// FORM CONTENT
-export default function FormContent(props : FormContentProps) {
-
-    // PROPS
-    const { children, gap, className } = props
-
-    // RENDER
+export default function FormContent({children} : {children: React.ReactNode}) {
     return (
-        <div className={`w-full flex flex-col ${gap} ${className}`}>
+        <div className={`w-full flex flex-col gap-4`}>
             { children }
         </div>
     )

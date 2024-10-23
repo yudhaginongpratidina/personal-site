@@ -11,7 +11,7 @@ export default function FormFooter(props: FormFooterProps) {
 
     // RENDER
     return (
-        <div className={`w-full flex items-center justify-center ${className}`}>
+        <div className={`w-full flex items-center justify-center border-t p-4 border-blue-500 ${className}`}>
             { children }
         </div>
     )

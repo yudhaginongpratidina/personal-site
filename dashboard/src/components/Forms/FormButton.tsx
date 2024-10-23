@@ -13,7 +13,7 @@ export default function FormButon(props : FormButtonProps) {
 
     // RENDER
     return (
-        <button type={type} className={`w-full p-3 flex items-center justify-center ${className}`}>
+        <button type={type} className={`p-2 rounded-md flex items-center justify-center ${className}`}>
             { children }
         </button>
     )
