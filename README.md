@@ -13,7 +13,6 @@
 - [React component - Select](./wiki/react/react-component-select.md)
 - [React component - Checkbox](./wiki/react/react-component-checkbox.md)
 - [React component - Button](./wiki/react/react-component-button.md)
-
 - [React component - Navbar](./wiki/react/react-component-navbar.md)
 - [React component - Footer](./wiki/react/react-component-footer.md)
 - [React component - Logo](./wiki/react/react-component-logo.md)
