@@ -18,7 +18,7 @@ export default function AvatarButtonLogout() {
             </button>
 
             {isActive && (
-                <div className="w-full min-h-screen flex items-center justify-center fixed z-50 top-0 left-0 bg-black bg-opacity-10">
+                <div className="w-full min-h-screen p-4 flex items-center justify-center fixed z-50 top-0 left-0 bg-black bg-opacity-10">
                     <div className="w-full max-w-screen-sm bg-white rounded-md">
                         <div className="w-full p-4 border-b">
                             <h1 className="text-xl font-medium">ARE YOU SURE?</h1>
