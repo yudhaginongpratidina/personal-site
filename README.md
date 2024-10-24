@@ -44,7 +44,8 @@
 
 ### BACKEND EXPRESS DOCS
 
-- [Express Installation](./wiki/backend-express/setup.md)
+- [Express - Installation](./wiki/backend-express/setup.md)
+- [Express - Setup logging with winston](./wiki/backend-express/setup-logging-with-winston.md)
 
 ### GIT DOCS
 
