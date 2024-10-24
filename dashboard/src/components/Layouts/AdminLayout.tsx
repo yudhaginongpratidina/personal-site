@@ -1,18 +1,18 @@
 import { useState } from "react";
 
-import NavbarContainer from "../Partials/NavbarContainer"
-import BrandContainer from "../Partials/BrandContainer"
-import BrandLogo from "../Partials/BrandLogo"
-import BrandName from "../Partials/BrandName";
-import DarkModeButton from "../Partials/DarkModeButton";
-import Avatar from "../Partials/Avatar";
-import AvatarMenu from "../Partials/AvatarMenu";
-import AvatarEmail from "../Partials/AvatarEmail";
-import AvatarItem from "../Partials/AvatarItem";
-import AvatarSpacer from "../Partials/AvatarSpacer";
-import AvatarButtonLogout from "../Partials/AvatarButtonLogout";
 
 import { RxDashboard } from "react-icons/rx";
+import Avatar from "../Partials/Avatar/Avatar";
+import AvatarButtonLogout from "../Partials/Avatar/AvatarButtonLogout";
+import AvatarEmail from "../Partials/Avatar/AvatarEmail";
+import AvatarItem from "../Partials/Avatar/AvatarItem";
+import AvatarMenu from "../Partials/Avatar/AvatarMenu";
+import AvatarSpacer from "../Partials/Avatar/AvatarSpacer";
+import BrandContainer from "../Partials/Brand/BrandContainer";
+import BrandLogo from "../Partials/Brand/BrandLogo";
+import BrandName from "../Partials/Brand/BrandName";
+import NavbarContainer from "../Partials/Navbar/NavbarContainer";
+import DarkModeButton from "../Partials/Others/DarkModeButton";
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
 

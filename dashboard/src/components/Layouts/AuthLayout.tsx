@@ -1,10 +1,10 @@
-import NavbarContainer from "../Partials/NavbarContainer";
-import BrandContainer from "../Partials/BrandContainer";
-import BrandLogo from "../Partials/BrandLogo";
-import BrandName from "../Partials/BrandName";
-import DarkModeButton from "../Partials/DarkModeButton";
-import FooterContainer from "../Partials/FooterContainer";
-import FooterVersion from "../Partials/FooterVersion";
+import BrandContainer from "../Partials/Brand/BrandContainer";
+import BrandLogo from "../Partials/Brand/BrandLogo";
+import BrandName from "../Partials/Brand/BrandName";
+import FooterContainer from "../Partials/Footer/FooterContainer";
+import FooterVersion from "../Partials/Footer/FooterVersion";
+import NavbarContainer from "../Partials/Navbar/NavbarContainer";
+import DarkModeButton from "../Partials/Others/DarkModeButton";
 
 import { RxDashboard } from "react-icons/rx";
 

@@ -1,20 +1,19 @@
 import { useState } from "react";
 
-import AuthLayout from "../components/Layouts/AuthLayout";
-
-import Form from "../components/Forms/Form";
-import FormHeader from "../components/Forms/FormHeader";
-import FormHeading from "../components/Forms/FormHeading";
-import FormDescription from "../components/Forms/FormDescription";
-import FormContent from "../components/Forms/FormContent";
-import FormControl from "../components/Forms/FormControl";
-import FormLabel from "../components/Forms/FormLabel";
-import FormInput from "../components/Forms/FormInput";
-import FormShowHide from "../components/Forms/FormShowHide";
-import FormCheckbox from "../components/Forms/FormCheckbox";
-import FormButton from "../components/Forms/FormButton";
-import FormFooter from "../components/Forms/FormFooter";
-import FormLink from "../components/Forms/FormLink";
+import Form from "../../components/Forms/Form";
+import FormButton from "../../components/Forms/FormButton";
+import FormCheckbox from "../../components/Forms/FormCheckbox";
+import FormContent from "../../components/Forms/FormContent";
+import FormControl from "../../components/Forms/FormControl";
+import FormDescription from "../../components/Forms/FormDescription";
+import FormFooter from "../../components/Forms/FormFooter";
+import FormHeader from "../../components/Forms/FormHeader";
+import FormHeading from "../../components/Forms/FormHeading";
+import FormInput from "../../components/Forms/FormInput";
+import FormLabel from "../../components/Forms/FormLabel";
+import FormLink from "../../components/Forms/FormLink";
+import FormShowHide from "../../components/Forms/FormShowHide";
+import AuthLayout from "../../components/Layouts/AuthLayout";
 
 export default function RegisterPage() {
     const [firstName, setFirstName] = useState<string>("");
