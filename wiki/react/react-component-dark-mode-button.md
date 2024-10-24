@@ -1,4 +1,4 @@
-# REACT COMPONENT DARK MODE BUTTON
+# REACT COMPONENT - DARK MODE BUTTON
 
 add class `dark` on html
 
