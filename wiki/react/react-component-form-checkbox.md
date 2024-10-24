@@ -1,4 +1,8 @@
-// TYPE
+# REACT COMPONENT FORM CHECKBOX
+
+## TYPE
+
+```tsx
 type FormCheckboxProps = {
     id : string
     required: boolean
@@ -6,14 +10,13 @@ type FormCheckboxProps = {
     onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
     className?: string
 }
+```
 
-// FORM CHECKBOX
+## COMPONENT
+
+```tsx
 export default function FormCheckbox(props : FormCheckboxProps) {
-
-    // PROPS
     const { id, required, checked, onChange, className } = props
-
-    // RENDER
     return (
         <input 
             type="checkbox" 
@@ -26,3 +29,4 @@ export default function FormCheckbox(props : FormCheckboxProps) {
         />
     )
 }
+```

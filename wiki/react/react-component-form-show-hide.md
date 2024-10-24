@@ -1,15 +1,20 @@
-// TYPE
+# REACT COMPONENT - FORM SHOW-HIDE
+
+## TYPE
+
+```tsx
 type FormShowHideProps = {
     children: React.ReactNode
     isShow: boolean
     onClick: (e: React.MouseEvent<HTMLButtonElement>) => void
 }
+```
+
+## COMPONENT
+
+```tsx
 export default function FormShowHide(props : FormShowHideProps) {
-
-    // PROPS
     const { children, onClick, isShow } = props
-
-    // RENDER
     return (
         <div className="w-full relative">
             { children }
@@ -19,3 +24,4 @@ export default function FormShowHide(props : FormShowHideProps) {
         </div>
     )
 }
+```

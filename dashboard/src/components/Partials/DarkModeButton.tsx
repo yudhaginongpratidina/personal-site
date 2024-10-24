@@ -1,52 +1,3 @@
-# REACT COMPONENT - DARK MODE BUTTON
-
-add class `dark` on html
-
-```html
-<!doctype html>
-<html lang="en" class="dark">
-
-<head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-</head>
-
-<body>
-    <div id="root"></div>
-    <script type="module" src="/src/App.tsx"></script>
-</body>
-
-</html>
-```
-
-add config darkmode on `tailwind.config.js`
-
-```js
-/** @type {import('tailwindcss').Config} */
-export default {
-    content: [
-        "./index.html",
-        "./src/**/*.{js,ts,jsx,tsx}",
-    ],
-    darkMode: 'class',
-    theme: {
-        container: {
-            center: true,
-            padding: {
-                DEFAULT: '1rem'
-            },
-        },
-        extend: {},
-    },
-    plugins: [],
-}
-```
-
-make component `DarkModeButton.tsx` or `DarkModeButton.jsx`
-
-```tsx
 // LIBS
 import { useState, useEffect } from "react";
 
@@ -88,16 +39,7 @@ export default function DarkModeButton() {
     // RENDER
     return (
         <button onClick={toggleDarkMode} className={`border border-gray-500 rounded p-1 ${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'}`}>
-            <FaMoon size={24} />
+            <FaMoon size={20} />
         </button>
     );
 }
-```
-
-implemnt `Dark Mode`
-
-```tsx
-<Navbar fixed={true} container={true} className="bg-white dark:bg-black" >
-    ....
-</Navbar>
-```

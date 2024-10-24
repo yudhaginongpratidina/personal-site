@@ -1,4 +1,8 @@
-// TYPE
+# REACT COMPONENT - FORM INPUT
+
+## TYPE
+
+```tsx
 type FormInputProps = {
     id : string
     type : "text" | "password" | "email"
@@ -9,14 +13,13 @@ type FormInputProps = {
     autoComplete? : "on" | "off"
     className? : string
 }
+```
 
-// FORM INPUT
+## COMPONENT
+
+```tsx
 export default function FormInput(props : FormInputProps) {
-
-    // PROPS
     const { id,type, placeholder, required, value, onChange, autoComplete, className } = props
-
-    // RENDER
     return (
         <input 
             id={id}
@@ -31,3 +34,4 @@ export default function FormInput(props : FormInputProps) {
         />
     )
 }
+```
