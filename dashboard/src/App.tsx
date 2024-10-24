@@ -10,6 +10,11 @@ import './styles/index.css'
 import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 
+// ERROR PAGE
+import NotFound from './pages/Errors/NotFound'
+import Unauthorized from './pages/Errors/Unauthorized'
+import Maintenance from './pages/Errors/Maintenance'
+
 // ROOT
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
@@ -17,6 +22,10 @@ createRoot(document.getElementById('root')!).render(
             <Routes>
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
+
+                <Route path="/unauthorized" element={<Unauthorized/>}/>
+                <Route path="/maintenance" element={<Maintenance/>}/>
+                <Route path="/*" element={<NotFound/>}/>
             </Routes>
         </BrowserRouter>
     </StrictMode>
