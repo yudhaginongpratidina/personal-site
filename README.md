@@ -34,7 +34,13 @@
 - [React Component - Brand Name](./wiki/react/react-component-brand-name.md)
 - [React component - DarkModeButton](./wiki/react/react-component-dark-mode-button.md)
 - [React Component - Footer Version](./wiki/react/react-component-footer-version.md)
-- [React component - HamburgerButton](./wiki/react/react-component-hamburger-button.md)
+- [React Component - HamburgerButton](./wiki/react/react-component-hamburger-button.md)
+- [React Cmponent - Avatar](./wiki/react/react-component-avatar.md)
+- [React Component - Avatar ButtonLogout](./wiki/react/react-component-avatar-button-logout.md)
+- [React Component - Avatar Email](./wiki/react/react-component-avatar-email.md)
+- [React Component - Avatar Item](./wiki/react/react-component-avatar-item.md)
+- [React Component - Avatar Menu](./wiki/react/react-component-avatar-menu.md)
+- [React Component - Avatar Spacer](./wiki/react/react-component-avatar-spacer.md)
 
 ### GIT DOCS
 
