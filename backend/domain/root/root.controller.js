@@ -1,6 +1,6 @@
 import express from 'express';
-
 const router = express.Router();
+import RootService from './root.service.js';
 
 /**
  * @swagger
@@ -10,10 +10,15 @@ const router = express.Router();
  *      tags: [Root]
  *      responses:
  *          200:
- *              description: API is running
+ *              description: Success
  */
-router.get('/', (req, res) => {
-    res.status(200).json('API is running...');
+router.get('/', async (req, res) => {
+    try {
+        const responses = await RootService.GetStatus();
+        return res.status(200).json({ message: responses });
+    } catch (error) {
+        return res.status(400).json({ message: error.message });
+    }
 });
 
 export default router;
