@@ -47,6 +47,7 @@
 - [Express - Installation](./wiki/backend-express/setup.md)
 - [Express - Setup logging with winston](./wiki/backend-express/setup-logging-with-winston.md)
 - [Express - Define first route](./wiki/backend-express/define-first-route.md)
+- [Express - Setup RESTfull API Documentation with swagger](./wiki/backend-express/setup-restfull-api-documentation-with-swagger.md)
 
 ### GIT DOCS
 

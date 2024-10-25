@@ -4,10 +4,11 @@ import express from 'express';
 // initiliaze router
 const router = express.Router();
 
+// import routes
+import rootController from '../domain/root/root.controller.js';
+
 // define routes
-router.get('/', (req, res) => {
-    res.send('API is running...');
-})
+router.get('/', rootController);
 
 // export router
 export default router;
